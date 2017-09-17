@@ -1,6 +1,6 @@
 {
   "name": "js-sdk-numbers",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple number utilities.",
   "main": "./lib/index.js",
   "directories": {
