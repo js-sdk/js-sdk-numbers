@@ -15,13 +15,10 @@ dist/numbers.min.js: src/index.js
 
 dist-all: pre-build dist/numbers.js dist/numbers.min.js
 
-examples/index.js: examples/src/index.js
-	$(BROWSERIFY) $< -d -t babelify --outfile $@
-
-all: test dist-all lib/numbers.js examples/index.js
+all: test dist-all lib/numbers.js
 
 clean:
-	rm -rf lib dist examples/index.js
+	rm -rf lib dist
 
 clean-all: clean
 	rm -rf node_modules coverage
