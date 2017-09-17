@@ -1,0 +1,43 @@
+{
+  "name": "js-sdk-numbers",
+  "version": "0.1.0",
+  "description": "Simple number utilities.",
+  "main": "./lib/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/js-sdk/js-sdk-numbers.git"
+  },
+  "keywords": [
+    "numbers"
+  ],
+  "author": "Bruno Dias",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/js-sdk/js-sdk-numbers/issues"
+  },
+  "homepage": "https://github.com/js-sdk/js-sdk-numbers#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "babelify": "^7.3.0",
+    "browserify": "^14.4.0",
+    "coveralls": "^2.13.1",
+    "mocha": "^3.5.0",
+    "nyc": "^11.2.1",
+    "should": "^12.0.0"
+  },
+  "nyc": {
+    "exclude": [
+      "tests/*.js"
+    ]
+  }
+}
